@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'digital-clock-font';
+    src: url('./digitalClock.ttf');
+}
+*{
+    
+    color:red;
+}
+.whole{
+    background-color: black;
+    height: 100vh;
+}
+
+
+
+#time-left{
+    text-align: center;
+    font-family: 'digital-clock-font';
+    font-size: 50vh;
+    margin: 0 0 0 0;
+    line-height: 35vh;
+}
+.sets{
+    display: grid;
+    grid-template-columns: 7.5vh 15vh 7.5vh;
+    grid-template-rows: 6vh;
+    justify-items: center;
+    align-items: center;
+    line-height: 6vh;
+}
+.dual{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#break-length, #session-length{
+    font-family: 'digital-clock-font';
+    font-size: 5vh;
+}
+#break-label, #session-label{
+    font-size: 3vh;
+    text-align: center;
+    margin: 0 0 0 0;
+    font-family: 'digital-clock-font';
+}
+#timer-label{
+    margin: 0 0 0 0;
+    text-align: center;
+    font-size: 4vh;
+    line-height: 4vh;
+    font-family: 'digital-clock-font';
+}
+#start_stop, #reset{
+    margin:0 0 0 0 ;
+    text-align: center;
+    height: 100%;
+    background-color: red;
+
+}
+#start_stopi, #reseti{
+    text-align: center;
+    font-size: 4vh;
+    height:100%;
+    margin:auto;
+    color:black;
+}
+.trio{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    width: 40vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#break-increment, #break-decrement, #session-increment, #session-decrement{
+    background-color: red;
+}
+.material-icons{
+    color:black;
+    font-size:4vh;
+    height: 100%;
+    margin:auto;
+}
+.Author{
+    font-size: 1.4vh;
+    text-align: center;
+    margin: auto;
+}
