@@ -1,4 +1,4 @@
 # BreakTimer
-# codeCampProject 
+# freecodecamp project 
 # by: Matthew Broyles
 # live: 
